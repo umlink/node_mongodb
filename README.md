@@ -1,8 +1,9 @@
+### 1.安装mongodb
 - git clone https://github.com/umlink/node_mongodb
 - cd node_mongodb
 - npm install
 - npm start
-### Tip：解开相应注释可测试
+### 2.解开相应注释可测试
  ~~~
  const mongoDB_client = require('mongodb').MongoClient;
  const DB_CONN_URL = 'mongodb://localhost:27017/umlink';
