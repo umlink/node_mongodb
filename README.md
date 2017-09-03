@@ -1,4 +1,8 @@
-### 1.安装mongodb
+### 1.安装mongodb & git clone project
+mac 为例，mongodb 文档请自行查看。
+- brew update
+- brew install mongodb
+- 启动：mongod --config /usr/local/etc/mongod.conf
 - git clone https://github.com/umlink/node_mongodb
 - cd node_mongodb
 - npm install
